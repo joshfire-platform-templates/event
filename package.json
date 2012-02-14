@@ -1,6 +1,6 @@
 {
   "name": "event",
-  "version": "0.0.3",
+  "version": "1.0",
   "fullName": "Event template",
   "description": "Template designed for events. Use it for conferences, seminars, concerts... It features a unique and slick design and integrates well with your brand logo. Use it to give informations about the event: map, schedule, directory, about page and news. Populate the photo and video gallery with pictures from the event.",
   "keywords": [
@@ -29,25 +29,50 @@
       }
     ],
     "datasources": {
-      "main": {
-        "title": "Main tabs",
-        "description": "Add up to 6 tabs in your application",
-        "multiple":true
+      "news": {
+        "title": "News",
+        "description": "Latest news concerning the event (e.g. blog)"
+      },
+      "tweets": {
+        "title": "Comments",
+        "description": "Comments on social networks (e.g. tweets from an hashtag)"
+      },
+      "calendar": {
+        "title": "Schedule",
+        "description": "What is happening and when? A detail list of yoru schedule (date, place, title...)"
+      },
+      "speakers": {
+        "title": "Speakers",
+        "description": "List of speakers, artists, sponsors or companies you want to feature"
+      },
+      "photos": {
+        "title": "Photos",
+        "description": "Pictures live posted from your event"
+      },
+      "videos": {
+        "title": "Videos",
+        "description": "Recording of the event. Suggestion: create an empty playlist that you will fill after the event."
       }
     },
     "options": {
       "schema": {
         "abouthtml": {
+          "title": "About (HTML)",
           "type": "string"
         }
       },
-    "form": [
-      "datasources.main",
-      {
-        "key": "abouthtml",
-        "type": "textarea"
-      }
-    ]
+      "form": [
+        "datasources.news",        
+        "datasources.tweets",
+        "datasources.calendar",
+        "datasources.speakers",
+        "datasources.photos",
+        "datasources.videos",
+        {
+          "key": "abouthtml",
+          "type": "textarea"
+        }
+      ]
     }
   }
 }
