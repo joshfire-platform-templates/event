@@ -56,25 +56,17 @@
       },
       "photos": {
         "title": "Photos",
-<<<<<<< HEAD
-        "description": "Pictures live posted from your event",
+        "description": "Live pictures taken during the event",
         "inputType": [
           "ImageObject"
         ]
       },
       "videos": {
         "title": "Videos",
-        "description": "Recording of the event. Suggestion: create an empty playlist that you will fill after the event.",
+        "description": "Recording of the event. Suggestion: create an empty playlist filled during/after the event.",
         "inputType": [
           "VideoObject"
         ]
-=======
-        "description": "Live pictures taken during the event"
-      },
-      "videos": {
-        "title": "Videos",
-        "description": "Recording of the event. Suggestion: create an empty playlist filled during/after the event."
->>>>>>> 1b9a3da60bfe0757946639d55f03aa16cf6c4b28
       }
     },
     "options": {
