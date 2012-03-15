@@ -2,7 +2,7 @@
   "name": "event",
   "version": "1.0",
   "fullName": "Event",
-  "description": "Template designed for events. Use it for conferences, seminars, concerts... It features a unique and slick design and integrates well with your brand logo. Use it to give informations about the event: map, schedule, directory, about page and news. Populate the photo and video gallery with pictures from the event.",
+  "description": "Template designed for events. Use it for conferences, seminars, concerts...\n\nThe template features a unique and slick design and integrates well with your brand logo. Use it to give informations about an event: map, schedule, directory, about page and news. Populate the photo and video gallery with pictures taken live during the event.\n\nThe template expects precise datasource types for each view. Please ensure that the datasource feed you set matches the expected type. Use an ical datasource for the schedule and a Twitter feed for the comments view for instance.",
   "keywords": [
      "event",
      "conference",
@@ -31,31 +31,32 @@
     "datasources": {
       "news": {
         "title": "News",
-        "description": "Latest news concerning the event (e.g. blog)",
+        "description": "Latest news concerning the event, e.g. a blog or other RSS content",
         "inputType": [
           "Article"
         ]
       },
       "tweets": {
         "title": "Comments",
-        "description": "Comments on social networks (e.g. tweets from an hashtag)",
+        "description": "Comments on social networks, e.g. tweets from an hashtag",
         "inputType": [
           "Article/Status"
         ]
       },
       "calendar": {
         "title": "Schedule",
-        "description": "What is happening and when? A detail list of yoru schedule (date, place, title...)",
+        "description": "What is happening and when? An ical datasource, e.g. a Google Calendar",
         "inputType": [
           "Event"
         ]
       },
       "speakers": {
         "title": "Speakers",
-        "description": "List of speakers, artists, sponsors or companies you want to feature"
+        "description": "List of speakers, artists, sponsors or companies you want to feature, typically defined in a spreadsheets (using the standard format)"
       },
       "photos": {
         "title": "Photos",
+<<<<<<< HEAD
         "description": "Pictures live posted from your event",
         "inputType": [
           "ImageObject"
@@ -67,6 +68,13 @@
         "inputType": [
           "VideoObject"
         ]
+=======
+        "description": "Live pictures taken during the event"
+      },
+      "videos": {
+        "title": "Videos",
+        "description": "Recording of the event. Suggestion: create an empty playlist filled during/after the event."
+>>>>>>> 1b9a3da60bfe0757946639d55f03aa16cf6c4b28
       }
     },
     "options": {
