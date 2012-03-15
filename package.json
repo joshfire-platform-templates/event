@@ -31,15 +31,24 @@
     "datasources": {
       "news": {
         "title": "News",
-        "description": "Latest news concerning the event (e.g. blog)"
+        "description": "Latest news concerning the event (e.g. blog)",
+        "inputType": [
+          "Article"
+        ]
       },
       "tweets": {
         "title": "Comments",
-        "description": "Comments on social networks (e.g. tweets from an hashtag)"
+        "description": "Comments on social networks (e.g. tweets from an hashtag)",
+        "inputType": [
+          "Article/Status"
+        ]
       },
       "calendar": {
         "title": "Schedule",
-        "description": "What is happening and when? A detail list of yoru schedule (date, place, title...)"
+        "description": "What is happening and when? A detail list of yoru schedule (date, place, title...)",
+        "inputType": [
+          "Event"
+        ]
       },
       "speakers": {
         "title": "Speakers",
@@ -47,11 +56,17 @@
       },
       "photos": {
         "title": "Photos",
-        "description": "Pictures live posted from your event"
+        "description": "Pictures live posted from your event",
+        "inputType": [
+          "ImageObject"
+        ]
       },
       "videos": {
         "title": "Videos",
-        "description": "Recording of the event. Suggestion: create an empty playlist that you will fill after the event."
+        "description": "Recording of the event. Suggestion: create an empty playlist that you will fill after the event.",
+        "inputType": [
+          "VideoObject"
+        ]
       }
     },
     "options": {
