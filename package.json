@@ -1,6 +1,6 @@
 {
   "name": "event",
-  "version": "1.1",
+  "version": "1.1.0",
   "fullName": "Event",
   "description": "Template designed for events. Use it for conferences, seminars, concerts...\n\nThe template features a unique and slick design and integrates well with your brand logo. Use it to give informations about an event: map, schedule, directory, about page and news. Populate the photo and video gallery with pictures taken live during the event.\n\nThe template expects precise datasource types for each view. Please ensure that the datasource feed you set matches the expected type. Use an ical datasource for the schedule and a Twitter feed for the comments view for instance.",
   "keywords": [
